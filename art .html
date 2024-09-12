@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashika Purwar - Art Teacher Portfolio CV</title>
+    
+    <!-- Bootstrap CSS for Professional Theme -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #f0f0f0;
+        }
+        .section-title {
+            border-bottom: 3px solid #3498db;
+            margin-bottom: 20px;
+            padding-bottom: 5px;
+            color: #3498db;
+        }
+        .artwork {
+            margin-top: 15px;
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .artwork:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .portfolio-link:hover {
+            background-color: #2980b9;
+        }
+ <style>
+        .container {
+            margin: 50px;
+        }
+        .video-container {
+            margin-top: 20px;
+            border: 2px solid #3498db;
+            padding: 10px;
+            border-radius: 10px;
+            width: 320px; /* Adjust the container size */
+        }
+        .video-container video {
+            width: 100%; /* Make the video fit the container */
+            height: auto; /* Adjust height proportionally */
+            max-width: 420px; /* Set maximum width for the video */
+            max-height: 280px; /* Optional: Set maximum height */
+        }
+        .play-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .play-link:hover {
+            background-color: #2980b9;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header with Profile Photo -->
+        <div class="row align-items-center mb-4">
+            <div class="col-md-8">
+                <h1>Yashika Purwar</h1>
+                <p><strong>Art Teacher & Freelance Artist</strong></p>
+                <p>Madan Mahal LIC, Near Bagga Hotel, Jabalpur</p>
+                <p>Phone: 9691419001 | Email: purwaryashi23@gmail.com</p>
+                <p>Date of Birth: 01/01/2003</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="https://your_image_link_here" alt="Yashika Profile" class="profile-photo">
+            </div>
+        </div>
+
+        <!-- Summary -->
+        <div class="mb-5">
+            <h2 class="section-title">Summary</h2>
+            <p>Creative and passionate Art Teacher with 4 years of experience in educational settings and freelance work. Proficient in developing tailored art curricula, engaging students through interactive projects, and adapting teaching methods to diverse learning styles. Specializes in stone art, sketching, painting, drawing, and miniature painting.</p>
+        </div>
+
+      
+        <!-- Work Experience -->
+        <div class="mb-5">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="mb-4">
+                <h3>Art Instructor (Part-Time) - Brain Train Academy, Jabalpur</h3>
+                <p><em>April 2022 - Present</em></p>
+                <ul>
+                    <li>Developed and implemented art curricula tailored to student needs.</li>
+                    <li>Engaged students through interactive and creative projects.</li>
+                    <li>Adapted teaching methods to suit diverse learning styles.</li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/brain.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/brain.jpeg" alt="Artwork 1" class="artwork">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/b4.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/b4.jpeg" alt="Artwork 2" class="artwork">
+                        </a>
+                    </div>
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/b5.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/b5.jpeg" alt="Artwork 3" class="artwork">
+                        </a>
+                    </div>
+                </div>
+            </div>
+ <div class="container">
+    <!-- The Link that will trigger video playback -->
+    <a href="#" id="playVideoLink" class="play-link">Click to Play Video</a>
+
+    <!-- Video container -->
+    <div class="video-container">
+        <video id="myVideo" controls>
+            <!-- Use a relative or online path for the video -->
+            <source src="C:/Users/lenovo pc/Downloads/art phoots/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!-- JavaScript to trigger the video playback when the link is clicked -->
+<script>
+    document.getElementById('playVideoLink').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default action
+        var video = document.getElementById('myVideo');
+        video.play(); // Play the video
+    });
+</script>
+
+            <div>
+                <h3>Freelance Artist - UV Studio and Makeover</h3>
+                <p><em>January 2020 - Present</em></p>
+                <ul>
+                    <li>Created and delivered customized artwork for clients.</li>
+                    <li>Managed multiple art projects simultaneously while maintaining high quality.</li>
+                    <li>Collaborated with clients to bring their artistic visions to life.</li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/b3.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/b3.jpeg" alt="Artwork 4" class="artwork">
+                        </a>
+                    </div>
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/b9.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/b9.jpeg" alt="Artwork 5" class="artwork">
+                        </a>
+                    </div>
+                    <div class="col-md-4 artwork-container">
+                        <a href="C:/Users/lenovo pc/Downloads/art phoots/b8.jpeg" data-lightbox="artwork-set">
+                            <img src="C:/Users/lenovo pc/Downloads/art phoots/b8.jpeg" alt="Artwork 6" class="artwork">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- Artwork Showcase -->
+<div class="mb-5">
+    <h2 class="section-title">Artwork Showcase</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p1.jpg" alt="Artwork 1" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p2.jpg" alt="Artwork 2" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p3.jpg" alt="Artwork 3" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p4.jpg" alt="Artwork 4" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p5.jpg" alt="Artwork 5" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p6.jpg" alt="Artwork 6" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p7.jpeg" alt="Artwork 7" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p08.jpeg" alt="Artwork 8" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p9.jpg" alt="Artwork 9" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p10.jpg" alt="Artwork 10" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p11.jpg" alt="Artwork 11" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p12.jpeg" alt="Artwork 12" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p13.jpeg" alt="Artwork 13" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p14.jpg" alt="Artwork 14" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p15.jpg" alt="Artwork 15" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p16.jpg" alt="Artwork 16" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p17.jpg" alt="Artwork 17" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p18.jpg" alt="Artwork 18" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p19.jpg" alt="Artwork 19" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p20.jpg" alt="Artwork 20" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p21.jpg" alt="Artwork 21" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p22.jpg" alt="Artwork 22" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p23.jpg" alt="Artwork 23" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p24.jpg" alt="Artwork 24" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p25.jpg" alt="Artwork 25" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p26.jpg" alt="Artwork 26" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p27.jpg" alt="Artwork 27" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p28.jpg" alt="Artwork 28" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p29.jpg" alt="Artwork 29" class="artwork">
+        </div>
+        <div class="col-md-4">
+            <img src="C:/Users/lenovo pc/Downloads/art phoots/p30.jpg" alt="Artwork 30" class="artwork">
+        </div>
+           </div>
+</div>
+
+<!-- CSS Styling -->
+<style>
+    .artwork {
+        width: 100%;               /* Ensure images take full width of the column */
+        height: 250px;              /* Set a fixed height for all images */
+        object-fit: cover;          /* Ensures image is contained and doesn't get distorted */
+        border: 2px solid #333;     /* Add border around each image */
+        border-radius: 10px;        /* Optional: Add rounded corners to the border */
+        margin-bottom: 15px;        /* Add spacing between images */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for a subtle 3D effect */
+    }
+
+    /* Optional: Adjust layout for smaller screens */
+    @media (max-width: 768px) {
+        .artwork {
+            height: 200px;         /* Reduce image height for smaller screens */
+        }
+    }
+</style>
+
+
+        <!-- Education -->
+        <div class="mb-5">
+            <h2 class="section-title">Education</h2>
+            <div>
+                <h3>Bachelor’s Degree in Fine Arts (Final Year) - Govt. Fine Arts College, Jabalpur</h3>
+                <p><em>Present</em></p>
+            </div>
+            <div>
+                <h3>Higher School Diploma - S.B.N. Higher Secondary School</h3>
+                <p><em>April 2020 - July 2021</em></p>
+            </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="mb-5">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li><strong>Art Curriculum Development:</strong> Proficient in creating art curricula for diverse students.</li>
+                <li><strong>Adaptation of Teaching Methods:</strong> Skilled in modifying teaching techniques to meet different learning needs.</li>
+                <li><strong>Artistic Skills:</strong> Expertise in stone art, sketching, painting, drawing, and miniature painting.</li>
+            </ul>
+        </div>
+
+        <!-- Footer with Portfolio Link -->
+        <div class="text-center">
+            <p>Thank you for reviewing my portfolio.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.deliver.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
